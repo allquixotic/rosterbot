@@ -1,0 +1,16 @@
+{
+  "name": "roster-bot",
+  "version": "1.0.0",
+  "description": "roster-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean McNamara <smcnam@gmail.com>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "googleapis": "^65.0.0",
+    "luxon": "^1.25.0"
+  }
+}
