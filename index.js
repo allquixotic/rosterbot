@@ -1,11 +1,11 @@
 const fs = require('fs');
 const readline = require('readline');
 const { google } = require('googleapis');
-const { Client } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const { DateTime } = require('luxon');
 
 //Discord
-const client = new Client();
+const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers]});
 const config = require('./config.json') || {};
 //config.json should have  { "discordSecret": "asdf", "spreadsheetId": "zxcv", "guildId": "1234" }
 

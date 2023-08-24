@@ -1,2 +1,2 @@
 #!/bin/bash
-screen -mdS roster node index.js
+node index.js
